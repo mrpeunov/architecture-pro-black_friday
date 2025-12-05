@@ -82,3 +82,42 @@
 **Индексы**: 
 1. На expires_at навесим TTL индекс из mongoDB для автоматического удаления истёкших корзин;
 2. customer_id, session_id - уникальный индекс для быстрого поиска;
+
+
+## Исправление после ревью
+
+> По поводу городов это не всегда правда, часто бывает так, что на Москву приходится 60% всего трафика и в таком случае одним только шардированием по геозоне не решить. Давай рассмотрим zone tag sharding
+
+Добавим zone tag sharding для Москвы по product_id (_id). Разобьём пространство uuid на 3 зоны:
+
+```js
+sh.addShardTag("shard-1", "MOSCOW-1")
+sh.addShardTag("shard-2", "MOSCOW-2")
+sh.addShardTag("shard-3", "MOSCOW-3")
+
+
+sh.addTagRange(
+    "products",
+    { "geo_zone_id": "msk_uuid", "category_id": "electronic_uuid", "_id": "00000000-0000-4000-8000-000000000000"},
+    { "geo_zone_id": "msk_uuid", "category_id": "electronic_uuid" , "_id": "55555555-5555-5555-5555-555555555555"},
+    "MOSCOW-1"
+)
+
+sh.addTagRange(
+    "products",
+    { "geo_zone_id": "msk_uuid", "category_id": "electronic_uuid", "_id": "55555555-5555-5555-5555-555555555556"},
+    { "geo_zone_id": "msk_uuid", "category_id": "electronic_uuid" , "_id": "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA"},
+    "MOSCOW-2"
+)
+
+sh.addTagRange(
+    "products",
+    { "geo_zone_id": "msk_uuid", "category_id": "electronic_uuid", "_id": "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAB"},
+    { "geo_zone_id": "msk_uuid", "category_id": "electronic_uuid" , "_id": "FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF"},
+    "MOSCOW-3"
+)
+```
+
+Данный подход можно усовершенствовать - разбивать на более мелкие зоны (например на 16 штук), 
+но прикреплять их к тому же количеству тегов (как в примере - 3). 
+При необходимости дальнейшего усовершенствования можно сделать ещё один тег и привязать некоторые диапазоны к новому тегу.

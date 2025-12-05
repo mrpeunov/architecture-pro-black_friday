@@ -1,0 +1,190 @@
+➜  sharding-repl-cache git:(tasks) ✗ ./scripts/mongo-init.sh
+Запуск контейнеров...
+[+] Running 14/0
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+[+] Running 19/18ng-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+[+] Running 19/19ng-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Network sharding-repl-cache_app-network     Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_config-data"    Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-3-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard1-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard2-1-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard1-3-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_redis"          Created                                                                                                                                                                                           0.0s
+ ✔ Volume "sharding-repl-cache_shard1-2-data"  Created                                                                                                                                                                                           0.0s
+ ✔ Container config                            Started                                                                                                                                                                                           0.0s
+ ✔ Container shard1-2                          Started                                                                                                                                                                                           0.0s
+ ✔ Container shard1-3                          Started                                                                                                                                                                                           0.0s
+ ✔ Container shard2-3                          Started                                                                                                                                                                                           0.1s
+ ✔ Container shard1-1                          Started                                                                                                                                                                                           0.1s
+ ✔ Container shard2-1                          Started                                                                                                                                                                                           0.0s
+ ✔ Container redis                             Started                                                                                                                                                                                           0.0s
+ ✔ Container shard2-2                          Started                                                                                                                                                                                           0.1s
+ ✔ Container router                            Started                                                                                                                                                                                           0.1s
+ ✔ Container pymongo_api                       Started                                                                                                                                                                                           0.0s
+✅Контейнеры запущены
+Ожидание готовности: config (27017)...
+✅ config (27017) готов.
+Ожидание готовности: shard1-1 (27018)...
+✅ shard1-1 (27018) готов.
+Ожидание готовности: shard1-2 (27019)...
+✅ shard1-2 (27019) готов.
+Ожидание готовности: shard1-3 (27020)...
+✅ shard1-3 (27020) готов.
+Ожидание готовности: shard2-1 (27021)...
+✅ shard2-1 (27021) готов.
+Ожидание готовности: shard2-2 (27022)...
+✅ shard2-2 (27022) готов.
+Ожидание готовности: shard2-3 (27023)...
+✅ shard2-3 (27023) готов.
+Инициализация Config...
+test> ... ... ... ... ... ... ... ... {
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920754, i: 2 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920754, i: 1 })
+}
+test> ✅ Config инициализирован
+Инициализация Shard1...
+test> ... ... ... ... ... ... ... {
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920758, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920758, i: 1 })
+}
+test> ✅Shard1 инициализирован
+Инициализация Shard2...
+test> ... ... ... ... ... ... ... {
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920761, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920761, i: 1 })
+}
+test> ✅Shard2 инициализирован
+Ожидание готовности: router (27024)...
+✅ router (27024) готов.
+Инициализация Router...
+[direct: mongos] test> {
+  shardAdded: 'shard1',
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920769, i: 68 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920769, i: 68 })
+}
+[direct: mongos] test> {
+  shardAdded: 'shard2',
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920773, i: 53 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920773, i: 53 })
+}
+[direct: mongos] test> {
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920773, i: 74 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920773, i: 74 })
+}
+[direct: mongos] test> {
+  collectionsharded: 'somedb.helloDoc',
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1764920773, i: 120 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1764920773, i: 119 })
+}
+[direct: mongos] test>
+[direct: mongos] test> switched to db somedb
+[direct: mongos] somedb> ... ... {
+  acknowledged: true,
+  insertedId: ObjectId('69328dc650a3f2abe4b1e1db')
+}
+[direct: mongos] somedb> Количество документов: 1000
+
+[direct: mongos] somedb> ✅Router инициализирован
+✅Кластер инициализирован
